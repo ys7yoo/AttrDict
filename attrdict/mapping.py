@@ -1,7 +1,11 @@
 """
 An implementation of MutableAttr.
 """
-from collections import Mapping
+
+try:
+    from collections import Mapping
+except ImportError:
+    from collections.abc import Mapping  # fix for python 3.10
 
 import six
 
