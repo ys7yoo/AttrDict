@@ -31,10 +31,11 @@ Installation
 AttrDict is in PyPI, so it can be installed directly using::
 
     $ pip install attrdict
+*THIS VERSION DOES NOT WORK WITH PYTHON 3.10*
 
 Or from Github::
 
-    $ git clone https://github.com/bcj/AttrDict
+    $ git clone https://github.com/ys7yoo/AttrDict
     $ cd AttrDict
     $ python setup.py install
 
